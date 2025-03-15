@@ -1,0 +1,13 @@
+This script is broken for Windows because of this error:
+←[91mError:←[0m Windows is not supported yet in the migration CLI
+So if you are running Linux or using WSL (Windows Subsystem for Linux), use the .sh files.
+I will update this once the migration CLI is supported in Windows.
+If you know how to help, contact me at: nicolasf1109backup@gmail.com
+Refer to this page if you do want to help: https://community.openai.com/t/how-to-migrate-openai-i-cannot-use-chatgpt-api/575437/5
+(UPDATE:Try running migrationalternative.bat, or if you want to do this manually, OpenAI0.28Installer.py)
+I found out that i needed to put an API key, i'll try that.
+It doesnt work, it gives me this error: Error: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+It may be because im using a free plan of ChatGPT or some billing thing, and I don't want to spend money, so this project is cancelled, if you want to use your own model or API key, please read the lines below.
+
+API Key: openai.api_key = "Insert your API key here"
+Model: model="Insert model here", (You can change to other models, like 'gpt-3.5-turbo')
